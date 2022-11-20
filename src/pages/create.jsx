@@ -23,7 +23,7 @@ const CreateRecord = () => {
   return (
     <Container className="col-md-10 text-light">
       <div className="my-4 text-start mx-3">
-        <h1>Create record</h1>
+        <h1>Create records</h1>
         <p>Enter new inventory information to the warehouse.</p>
       </div>
       <div className="mx-3 mb-5 col-md-6 text-start">
