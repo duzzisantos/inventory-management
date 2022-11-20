@@ -20,6 +20,11 @@ const CreateRecord = () => {
   const renderProductCategories = product.map((item) => (
     <option key={item.id}>{item.category.toUpperCase()}</option>
   ));
+
+  let five = 5;
+  if (five) {
+    return 5;
+  }
   return (
     <Container className="col-md-10 text-light">
       <div className="my-4 text-start mx-3">
